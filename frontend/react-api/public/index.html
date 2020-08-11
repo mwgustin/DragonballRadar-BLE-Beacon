@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <title>Dragon Radar</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://pixijs.download/dev-graphics-batch-pool/pixi.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/T-vK/SuperParticles@master/SuperParticles.js"></script>
+    <script>
+      window.onload = function(){
+        var config = {
+          useJquery: false, // true/false/undefined
+          maxFps: 30, // requires pixi.js v5
+          autoStartAnimation: true, // true/false
+          container: {
+              element: undefined,
+              //backgroundCssRule: "radial-gradient(ellipse at bottom, rgba(10,46,56,1) 0%,rgba(34,34,34,1) 70%)" // css or null (null: don't modify container background)
+              backgroundCssRule: "radial-gradient(at bottom, rgb(26, 58, 28), rgb(26, 58, 28), rgb(31, 73, 34), rgb(39, 96, 43))" // css or null (null: don't modify container background)
+          },
+          pixiApp: { // these are documented here: http://pixijs.download/release/docs/PIXI.Application.html#Application
+              antialias: true,
+              transparent: true,
+              forceFXAA: false,
+              resolution: 1.0
+          },
+          particles: {
+              amount: 100, // unit: particles
+              radius: 2, // unit: pixels
+              velocity : 10, // unit: pixels/second
+              color: "0xFFFFFF", // unit: rgb hex color
+              fadeInDuration: 1500, // unit: milliseconds
+              fadeOutDuration: 600, // unit: milliseconds
+              keepRelativePositionOnResize: true, // true/false
+          },
+          lines: {
+              minDistance: 0.2, // unit: percent (1: 100%; 0: 0%
+              color: "0xFFFFFF", // unit: hex color
+              maxOpacity: 0.4, // 1: full opacity; 0: no opacity
+              thickness: 1, // unit: pixels
+              distanceBasedTransparency: true, // true/false
+          },
+          debug: {
+              showFps: false, // true/false
+          }
+        }
+        new SuperParticles(config)
+      }
+  </script> -->
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>

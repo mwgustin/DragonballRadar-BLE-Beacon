@@ -1,0 +1,15 @@
+start node app.js
+    - sudo pm2 start ~/dev/dragon-radar-poc/app.js
+start node serve of front end
+    - sudo pm2 start ~/dev/dragon-radar-frontend/dragon-radar-front-launch.js
+launch chrome in kiosk mode
+    - DISPLAY=:0 chromium-browser -kiosk http://localhost:8080
+
+
+
+
+su pi -c 'sudo pm2 start ~/dev/dragon-radar-poc/app.js'
+su pi -c 'sudo pm2 start ~/dev/dragon-radar-frontend/dragon-radar-front-launch.js'
+su pi -c 'DISPLAY=:0 chromium-browser -kiosk -disable-session-crashed-bubble http://localhost:8080 &'
+
+

@@ -1,0 +1,26 @@
+.main-app {
+  position: "absolute";
+  top: 0;
+  left: 0;
+  height:100%;
+}
+
+.particle-background {
+  position: "absolute";
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.dragon-balls{
+  position: "absolute";
+  top: 0;
+  left: 0;
+  color: rgb(182, 180, 180);
+}
+
+.card {
+  margin: 10px;
+  background: Rgb(0,0,0, .4);
+  width: 30%;
+}
